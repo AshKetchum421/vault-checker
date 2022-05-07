@@ -123,6 +123,3 @@ python3 -m main.py
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
-✨Deploy : 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
