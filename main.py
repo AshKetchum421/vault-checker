@@ -4,12 +4,6 @@ import os
 from pyrogram import Client
 from pyrogram.errors import RPCError
 from pyrogram.errors import BadRequest
-# import asyncio
-# from pyrogram.errors import FloodWait
-# from pyrogram.handlers import MessageHandler
-# os.environ['TZ'] = 'Asia/Kolkata'
-
-
 
 logging.basicConfig(level=logging.INFO)
 
@@ -17,9 +11,9 @@ logging.basicConfig(level=logging.INFO)
 
 bot = Client(
     'bot',
-    api_id= API_ID, #get it from https://my.telegram.org/auth
-    api_hash="API_HASH", #get it from https://my.telegram.org/auth
-    bot_token="BOT_TOKEN", #get it from @Botfather
+    api_id= "5465540",
+    api_hash="c7dca7582d73d24d99889a3f2dd079cf",
+    bot_token="5359922788:AAHnkVAC01ED4gin15xgLCXXd-sQBmkGaB4",
     plugins=dict(root="plugins"),
     parse_mode="html")
 
