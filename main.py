@@ -11,9 +11,9 @@ logging.basicConfig(level=logging.INFO)
 
 bot = Client(
     'bot',
-    api_id= "5465540",
-    api_hash="c7dca7582d73d24d99889a3f2dd079cf",
-    bot_token="5359922788:AAHnkVAC01ED4gin15xgLCXXd-sQBmkGaB4",
+    api_id= "",
+    api_hash="",
+    bot_token="",
     plugins=dict(root="plugins"),
     parse_mode="html")
 
